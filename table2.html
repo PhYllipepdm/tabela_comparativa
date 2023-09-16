@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 10px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            background-color: #0c0814;
+        }
+        main{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            padding: 30px ;
+            background: #2f2841;
+            border-radius: 20px;
+            box-shadow: 0px 10px 40px #00000056; 
+         } 
+        table{
+            text-align: center;
+            border-spacing: 1px;
+        }
+        th{
+            font-size: large;
+            background-color: rgba(0, 0, 0, 0.925);
+            color: rgba(137, 43, 226, 0.712);
+        }
+        td{
+            background-color: rgb(34, 33, 33);
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: #eeff00;
+        }
+        a:hover{
+            font-size: 20px;
+            color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="color: white;">Quadro Comparativo de Linguagens</h2>
+    <main>     
+        <section>
+            <table border="1">
+               
+                <tr>
+                    <th>Linguagem</th>
+                    <th>Popularidade</th>
+                    <th>Tipagem</th>
+                    <th>Paradigma</th>
+                    <th>Aplicações</th>
+                    <th>Facilidade de Aprendizado</th>
+                    <th>Minha Opinião</th>
+                </tr>
+               
+                <tr>
+                    <td><a href="https://www.google.com/search?q=javascript&sca_esv=565654079&sxsrf=AM9HkKkxzxwGQVUXyxyRC_nqY7gQrOm_Ug%3A1694786968563&ei=mGUEZYGCIp7c5OUPrd-2gAg&oq=ja&gs_lp=Egxnd3Mtd2l6LXNlcnAiAmphKgIIADIHECMYigUYJzINEAAYigUYsQMYgwEYQzIHEC4YigUYQzILEAAYgAQYsQMYgwEyBxAAGIoFGEMyBRAuGIAEMgsQLhiKBRixAxiDATILEC4YigUYsQMYgwEyCBAuGIAEGLEDMgUQLhiABEiwJ1CkCliUIHAFeAGQAQCYAcgCoAHSCKoBBzAuMy4xLjG4AQPIAQD4AQGoAhTCAgcQIxjqAhgnwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAcICBRAAGIAEwgILEAAYigUYsQMYgwHCAggQABiABBixA8ICBhAAGAMYCsICCxAuGIAEGLEDGIMBwgIHEC4YgAQYCsICCBAuGLEDGIAEwgILEC4YgwEYsQMYgATCAhcQLhixAxiABBiXBRjcBBjeBBjgBNgBAsICBxAAGIAEGArCAhoQLhiDARixAxiABBiXBRjcBBjeBBjfBNgBAuIDBBgAIEGIBgG6BgYIARABGAu6BgYIAhABGBQ&sclient=gws-wiz-serp#ip=1" class="link1">JavaScript</a></td>
+                    <td>Muito Alta</td>
+                    <td>Dinâmica</td>
+                    <td>Multiparadgma</td>
+                    <td>Front-end,Back-end</td>
+                    <td>Moderada</td>
+                    <td>Versátil e poderosa, mas pode ser desafiadora.</td>
+                </tr>
+               
+                <tr>
+                    <td><a href="https://www.google.com/search?q=java+linguagem+de+programa%C3%A7%C3%A3o&sca_esv=565654079&biw=1366&bih=657&sxsrf=AM9HkKlYUr8inJm0H5I-eR7lfHtLNnEI9g%3A1694788897007&ei=IW0EZewNy8vWxA-uXA&oq=java+linguagem+de+&gs_lp=Egxnd3Mtd2l6LXNlcnAiEmphdmEgbGluZ3VhZ2VtIGRlICoCCAAyBRAAGIAEMgUQABiABDIGEAAYFhgeMggQABgWGB4YDzIGEAAYFhgeMggQABgWGB4YDzIGEAAYFhgeMggQABgWGB4YCkiuJ1CUAVjTH3AAeAKQAQCYAf4CoAHGDqoBBzAuMi41LjG4AQPIAQD4AQHCAgQQABhHwgINEAAYigUYsQMYgwEYQ8ICBxAAGIoFGEPCAgoQABiKBRixAxhDwgILEAAYgAQYsQMYgwHiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp">Java</a></td>
+                    <td>Alta</td>
+                    <td>Estática</td>
+                    <td>Orientada a Objetos</td>
+                    <td>Aplicações empresariais,Android</td>
+                    <td>Moderada</td>
+                    <td>Robusta e escalável, mas verbosa.</td>
+                </tr>
+               
+                <tr>
+                    <td><a href="https://www.google.com/search?q=PHPlinguagem+de+programa%C3%A7%C3%A3o&sca_esv=565654079&biw=1366&bih=657&sxsrf=AM9HkKmXO7H0t_MzyibYExjrjhxIcKB7cQ%3A1694788939483&ei=S20EZeKEHY6J1sQP3IS_oAc&ved=0ahUKEwii1tPl7KyBAxWOhJUCHVzCD3QQ4dUDCBA&uact=5&oq=PHPlinguagem+de+programa%C3%A7%C3%A3o&gs_lp=Egxnd3Mtd2l6LXNlcnAiHVBIUGxpbmd1YWdlbSBkZSBwcm9ncmFtYcOnw6NvMgcQABgNGIAEMgYQABgHGB4yCBAAGAcYHhgPMggQABgHGB4YDzIIEAAYCBgHGB4yCBAAGAgYBxgeMggQABgIGAcYHjIIEAAYCBgHGB4yCBAAGAgYBxgeMggQABgIGAcYHkjgDFAAWIsJcAB4AZABAJgB8QGgAaEGqgEFMC4zLjG4AQPIAQD4AQHCAgoQABiKBRixAxhDwgIHEAAYigUYQ8ICBRAAGIAEwgINEAAYDRiABBixAxixA-IDBBgAIEGIBgE&sclient=gws-wiz-serp">PHP</a></td>
+                    <td>Média</td>
+                    <td>Dinâmica</td>
+                    <td>Multiparadgma</td>
+                    <td>Desenvolvimento Web</td>
+                    <td>Fácil</td>
+                    <td>Simples, mas propensa a más práticas.</td>
+                </tr>
+               
+                <tr>
+                    <td><a href="https://www.google.com/search?sca_esv=565654079&sxsrf=AM9HkKm5vkK4PLeSrediQA_fsogJpOAk8w:1694789227714&q=Python&si=ALGXSlZS0YT-iRe81F2cKC9lM9KWTK4y0m5Atx8g9YliNNw2mfrEOibIkaI33Ebb1ZU4xbZp1d5q65iNM40S4JW5-OiWiPCKylsYiIVgqag_cDNEgyMQK-X3ZoQ6EJk1XquaYBKuLmF6LhkjG1jBfcb-JjVZ2Z97aqKdo9eNTh1J0ABlpD_wMb7-U_9A__SoQmvo8RRiJ_xSOt3KGTwBZnX2Dm27sJCxRpAsENfsXvAZYCFvWPb6WdAAYSgWU8jrpK2dzJwNKfeDCREcGi1NOCm3aUbHSsgV2Q%3D%3D&sa=X&ved=2ahUKEwjr9Yvv7ayBAxU7pJUCHaW_BNMQxA16BAhREAc&biw=1366&bih=657&dpr=1">Phython</a></td>
+                    <td>Muito Alta</td>
+                    <td>Dinâmica</td>
+                    <td>Multiparadgma</td>
+                    <td>IA, Desenvolvimento Web</td>
+                    <td>Fácil</td>
+                    <td>Clara e legível, ótima para iniciantes.</td>
+                </tr>
+               
+                <tr>
+                    <td><a href="https://www.google.com/search?q=C%23&sca_esv=565654079&biw=1366&bih=657&sxsrf=AM9HkKlqYP4xg3WB3iETBurSe4_lVdfPGw%3A1694789347594&ei=424EZYXvI_iI4dUP6qqN4Ak&ved=0ahUKEwjF7KCo7qyBAxV4RLgEHWpVA5wQ4dUDCBA&uact=5&oq=C%23&gs_lp=Egxnd3Mtd2l6LXNlcnAiAkMjMg0QABiKBRixAxiDARhDMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyBxAAGIoFGEMyBxAAGIoFGEMyCxAAGIAEGLEDGIMBMgUQABiABDILEAAYgAQYsQMYgwEyBRAAGIAEMgsQABiABBixAxiDAUjJDVAAWMUJcAF4AZABAJgBuASgAYIGqgEHMi0xLjUtMbgBA8gBAPgBAagCEcICBxAjGOoCGCfCAhAQABiKBRjqAhi0AhhD2AEBwgITEC4YigUYyAMY6gIYtAIYQ9gBAsICBxAjGIoFGCfCAgsQLhiABBixAxiDAcICERAuGIAEGLEDGIMBGMcBGNED4gMEGAAgQYgGAboGBggBEAEYAboGBggCEAEYCA&sclient=gws-wiz-serp">C#</a></td>
+                    <td>Alta</td>
+                    <td>Estática</td>
+                    <td>Orientada a Objetos</td>
+                    <td>Desenvolvimento de jogos e Aplicativos Windows</td>
+                    <td>Moderada</td>
+                    <td>Boa integração com a plataforma Microsoft.</td>
+                </tr>
+               
+                <tr>
+                    <td><a href="https://www.google.com/search?q=Ruby&sca_esv=565654079&biw=1366&bih=657&sxsrf=AM9HkKmF8aROGLFeQAFGhTHsaWVl_R-h-A%3A1694789448704&ei=SG8EZY-8Krrd1sQPx-iFmAI&ved=0ahUKEwiPgLzY7qyBAxW6rpUCHUd0ASMQ4dUDCBA&uact=5&oq=Ruby&gs_lp=Egxnd3Mtd2l6LXNlcnAiBFJ1YnkyDRAAGIoFGLEDGIMBGEMyBxAAGIoFGEMyBxAAGIoFGEMyCBAuGLEDGIAEMggQABiABBixAzILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMgsQABiKBRixAxiDATIIEC4YgAQYsQMyBRAAGIAESLYiUJ8OWMkecAJ4AJABAJgBzQGgAZ4EqgEFMC4yLjG4AQPIAQD4AQGoAhTCAgoQABiKBRiwAxhDwgIHECMY6gIYJ8ICEBAAGIoFGOoCGLQCGEPYAQHCAgcQIxiKBRgnwgINEC4YigUYxwEY0QMYJ8ICDRAuGIoFGLEDGIMBGEPiAwQYASBBiAYBkAYKugYGCAEQARgB&sclient=gws-wiz-serp">Ruby</a></td>
+                    <td>Média</td>
+                    <td>Dinâmica</td>
+                    <td>Multiparadgma</td>
+                    <td>Desenvolvimento Web</td>
+                    <td>Fácil</td>
+                    <td>Elegante e expressiva, mas menos popular.</td>
+                </tr>
+            
+            </table>
+        </section>
+    </main>
+</body>
+</html>
